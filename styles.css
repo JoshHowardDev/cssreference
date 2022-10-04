@@ -14,7 +14,7 @@ body {
 .bodyContainer {
     min-height: 100vh;
     width: clamp(500px, 80vw, 2000px);
-    background: white;
+    background: linear-gradient(#ffbaf6, #ffc877);
     box-shadow: 
         5px 0 5px 5px rgb(0, 0, 0, 0.3),
         -5px 0 5px 5px rgb(0, 0, 0, 0.3);
@@ -28,8 +28,8 @@ body {
 
 .card {
     box-sizing: border-box;
-    background: rgb(255, 225, 225);
-    width: 90%;
+    background: rgb(240, 240, 255);
+    width: 98%;
     box-shadow: 0 0 5px 5px rgb(0, 0, 0, 0.3);
     padding: 10px;
     font-size: 1.5rem;
