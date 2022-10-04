@@ -1,0 +1,75 @@
+body, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(rgb(0, 0, 255, 0.3), rgb(0, 255, 0, 0.3));
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.bodyContainer {
+    min-height: 100vh;
+    width: clamp(500px, 80vw, 2000px);
+    background: white;
+    box-shadow: 
+        5px 0 5px 5px rgb(0, 0, 0, 0.3),
+        -5px 0 5px 5px rgb(0, 0, 0, 0.3);
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(min-content, max-content);
+    padding: 20px;
+    gap: 20px;
+}
+
+.card {
+    box-sizing: border-box;
+    background: rgb(255, 225, 225);
+    width: 90%;
+    box-shadow: 0 0 5px 5px rgb(0, 0, 0, 0.3);
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: right;
+}
+
+.referenceLink {
+    text-align: right;
+    margin: 5px;
+}
+
+.syntaxTable {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    border-collapse: collapse;   
+    width: 100%;
+}
+
+tr:nth-child(1) {
+    box-shadow: 0 5px 5px -5px black;
+}
+
+.syntaxTable tr td:nth-child(1) {
+    text-align: center;
+    width: 15%;
+}
+
+.syntaxTable tr td:nth-child(2) {
+    text-align: left;
+    width: 85%;
+}
+
+td {
+    padding: 10px;
+}
