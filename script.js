@@ -51,10 +51,12 @@ function propogateDataArray() {
     
         linkTitles: [
             'CSS Tricks',
+            'Box Shadow Only On Right and Left'
         ],
         
         linkURLs: [
             'https://css-tricks.com/almanac/properties/b/box-shadow/',
+            'https://www.w3docs.com/snippets/css/how-to-add-a-box-shadow-only-on-the-left-and-right-sides.html'
         ],
         
         syntaxTitles: [
